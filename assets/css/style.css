@@ -1,0 +1,25 @@
+/* Stylesheet - simple and clean */
+:root{
+  --primary:#2b7cff;
+  --bg:#f4f6fb;
+  --card:#ffffff;
+  --text:#222;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,Helvetica,sans-serif;margin:0;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+.container{width:95%;max-width:960px;margin:20px auto;padding:20px;background:var(--card);border-radius:10px;box-shadow:0 6px 20px rgba(20,30,60,0.06)}
+.topbar{background:var(--card);border-bottom:1px solid rgba(0,0,0,0.06)}
+.topbar .container{display:flex;justify-content:space-between;align-items:center}
+.topbar nav a{margin-left:12px;color:var(--primary);text-decoration:none}
+.center-card{width:360px;margin:90px auto;padding:22px;background:var(--card);border-radius:10px;box-shadow:0 8px 30px rgba(20,30,60,0.06);text-align:center}
+.center-card h2{margin:0 0 12px}
+label{display:block;margin:10px 0 6px;font-weight:600}
+input[type=text], input[type=password], input[type=number], textarea, select{
+  width:100%;padding:10px;border:1px solid #e6e9ef;border-radius:8px;font-size:14px;margin-bottom:8px
+}
+.btn{background:var(--primary);color:#ffffff;padding:10px 14px;border-radius:8px;border:none;cursor:pointer;text-decoration:none;display:inline-block}
+.table{width:100%;border-collapse:collapse;margin-top:14px}
+.table th,.table td{padding:10px;border:1px solid #f0f2f5;text-align:left}
+.error{background:#fff0f2;color:#b00020;padding:10px;border-radius:6px;margin-bottom:12px}
+.muted{color:#6b7280;font-size:13px;margin-top:12px}
+.bg{background:linear-gradient(180deg,#f4f6fb,#eef3ff)}
